@@ -1,0 +1,54 @@
+h1 {
+  margin: 20px;
+}
+
+body {
+  text-align: center;
+  background-color: #1b1b35;
+  color: #f5f6f7;
+  font-family: Tahoma;
+}
+
+fieldset {
+  border-color: #767685;
+  margin: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.name-email-age {
+  display: block;
+  margin: 12px;
+  margin-top: 8px;
+}
+
+.name-email-age-input  {
+  display: block;
+  min-width: 100px;
+  width: 350px;
+  background-color: #767685;
+  border-color: #767685;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.second-box {
+  margin-top: 12px;
+}
+
+.checkboxes {
+  margin: 16px;
+  margin-bottom: 8px;
+}
+
+.submit {
+  margin-top: 8px;
+}
+
+footer {
+  opacity: 30%;
+}

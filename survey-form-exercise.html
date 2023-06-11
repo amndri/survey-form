@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Training Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Training Survey Form</h1>
+    <p id="description">This is a training exercise.</p>
+    <form id="survey-form">
+      <fieldset class="name-email-age-fieldset">
+        <div  class="name-email-age">
+          <label id="name-label">Name <input class="name-email-age-input" id="name" type="text" required placeholder="Enter your Name"></label>
+        </div>
+        <div class="name-email-age">
+        <label id="email-label">Email <input class="name-email-age-input" id="email" type ="email" required placeholder="Enter your Email"></label>
+        </div>
+        <div class="name-email-age">
+        <label id="number-label">Age (optional) <input class="name-email-age-input" id="number" type="number" min="10" max="99" placeholder="Enter your Age (You have to be at least 10 years old)"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <select id="dropdown" class="second-box">
+          <option>Question</option>
+          <option>Complaint</option>
+        </select>
+        <div class="second-box">
+          <label>Private Client<input type="radio" name="radiobutton" value="6"></label>
+          <label>Business Client<input type="radio" name="radiobutton" value="7"></label>
+        </div>
+        <div class="checkboxes" class="second-box">
+          <input type="checkbox" value="1">
+          <input type="checkbox" value="2">
+          <input type="checkbox" value="3">
+          <input type="checkbox" value="4">
+          <input type="checkbox" value="5">
+        </div>
+      </fieldset>
+      <textarea rows="3" cols="48" placeholder="Enter your comment here..."></textarea>
+      <div>
+        <input type="submit" id="submit" class="submit">
+      </div>
+    </form>
+    <footer>Est: 2023 Andri</footer>
+  </body>
+</html>
